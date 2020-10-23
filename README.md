@@ -3,7 +3,7 @@
 ## Setting Up
 
 - Install dependencies: `npm install`
-- Create development and test databases: `createdb thingful`, `createdb thingful-test`
+- Create development and test databases: `createdbthingful`, `createdb thingful-test`
 - Create database user: `createuser thingful`
 - Grant privileges to new user in `psql`:
   - `GRANT ALL PRIVILEGES ON DATABASE thingful TO thingful`
@@ -18,7 +18,7 @@
 For tests involving time to run properly, your Postgres database must be configured to run in the UTC timezone.
 
 1. Locate the `postgresql.conf` file for your Postgres installation.
-    - OS X, Homebrew: `/usr/local/var/postgres/postgresql.conf`
+   - OS X, Homebrew: `/usr/local/var/postgres/postgresql.conf`
 2. Uncomment the `timezone` line and set it to `UTC` as follows:
 
 ```
