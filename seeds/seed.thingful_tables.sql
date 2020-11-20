@@ -156,3 +156,11 @@ INSERT INTO thingful_reviews (
   );
 
 COMMIT;
+INSERT INTO thingful_users (user_name, full_name, password, nickname )
+VALUES
+
+  ('b.deboop', 'Bodeep Deboop',  '$2a$10$1otJDqi9WSTEGvm2xzQmTezh/3n5CWmWg9GcIxKBsFitpAncD6R5G', 'Bo'),
+  ('c.bloggs', 'Charlie Bloggs',  '$2a$10$1otJDqi9WSTEGvm2xzQmTezh/3n5CWmWg9GcIxKBsFitpAncD6R5G', 'Charlie'),
+  ('s.smith', 'Sam Smith',  '$2a$10$1otJDqi9WSTEGvm2xzQmTezh/3n5CWmWg9GcIxKBsFitpAncD6R5G', 'Sam'),
+  ('lexlor', 'Alex Taylor',  '$2a$10$1otJDqi9WSTEGvm2xzQmTezh/3n5CWmWg9GcIxKBsFitpAncD6R5G', 'Lex'),
+  ('wippy', 'Ping Won In', '$2a$10$1otJDqi9WSTEGvm2xzQmTezh/3n5CWmWg9GcIxKBsFitpAncD6R5G', 'Ping');
